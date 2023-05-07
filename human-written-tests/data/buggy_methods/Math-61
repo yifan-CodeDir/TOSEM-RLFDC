@@ -1,0 +1,5 @@
+org.apache.commons.math.distribution.PoissonDistributionImpl$<init><DD>
+org.apache.commons.math.distribution.PoissonDistributionImpl$<init><D>
+org.apache.commons.math.distribution.PoissonDistributionImpl$<init><DI>
+org.apache.commons.math.distribution.PoissonDistributionImpl$<init><DDI>
+org.apache.commons.math.distribution.PoissonDistributionImpl$getDomainUpperBound<D>

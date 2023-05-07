@@ -1,5 +1,13 @@
-This is a replication package for a work submitting to ASE 2023.
+# Improving Fault Localization using Test Cases with High Fault Diagnosis Capability
+***
+This repository contains a replication package for a research paper submitted to the 45th International Conference on Software Engineering (ASE 2023).
 
-This is to try if we make a change, whether the url will change.
+## Requirements:
+***
++ Python 3.9.1
+  + ``` pip install -r requirements.txt ```
++ Linux/amd64 architecture
++ Docker 
 
-This is to try again.
+## Package structure
+***

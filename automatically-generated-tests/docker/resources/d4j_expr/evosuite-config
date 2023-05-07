@@ -1,0 +1,1 @@
+-Dstopping_condition=MaxTime -Dshow_progress=false -Djunit_check=true -Dfilter_assertions=true -Dtest_comments=true -Dmax_size=100 -Dminimize=false -Dmax_length_test_case=20 -mem 1500 -Dassertion_timeout=600 -Dwrite_junit_timeout=120 -Dinitialization_timeout=320
