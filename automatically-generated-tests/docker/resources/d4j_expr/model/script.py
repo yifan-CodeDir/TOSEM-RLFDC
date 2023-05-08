@@ -20,8 +20,11 @@ def find_fold(project, version):
       return fold
 
 if __name__ == '__main__':
-    project = "Lang"
-    version = 20
+    # project = "Lang"
+    # version = 20
+
+    project = sys.argv[1]
+    version = int(sys.argv[2])
     
     five_fold = {
         'Lang': [0, 13, 26, 39, 52, 65],
@@ -31,15 +34,16 @@ if __name__ == '__main__':
         'Closure': [0, 27, 53, 80, 106, 133]
     }
     fold = find_fold(project, version)
+    # print(f"Model load path:/root/workspace/model/network_model_v5_fold{fold}/{project}.pt")
     model = torch.load("/root/workspace/model/network_model_v5_fold{}/{}.pt".format(fold, project), map_location=torch.device('cpu'))
     state = []
     feature = []
     # get state
-    for i in range(1, 4):
+    for i in range(3, 6):
         state.append(float(sys.argv[i]))
 
     # get feature 
-    for i in range(4, 6):
+    for i in range(6, 8):
         feature.append(float(sys.argv[i]))
 
     state = torch.tensor(state).float()
