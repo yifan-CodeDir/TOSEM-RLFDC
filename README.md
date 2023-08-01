@@ -1,5 +1,5 @@
 # Improving Fault Localization using Test Cases with High Fault Diagnosis Capability
-This repository contains a replication package for a research paper submitted to ASE 2023.
+This repository contains a replication package for a research paper submitted to ICSE 2024.
 
 ## Requirements:
 + Python 3.9.1
