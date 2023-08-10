@@ -1,4 +1,11 @@
 # Test Generation with EVOSUITE 
+## Statistics of generated tests for RQ3
+| Metric    | EVO-line   |EVO-DDU   |EVO-EntBug   |EVO-RLFDC      |
+| :-------- | :--------- | :------- | :---------- | :-------- | 
+| # Total tests      | 42,482 | 24,347 | 13,026 | 24,271 |
+| # Failing tests    | 1,413  | 1,209  | 1,004  | 1,282  | 
+
+
 ## Prerequisite
 - docker
 
