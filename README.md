@@ -1,5 +1,5 @@
-# Improving Fault Localization using Test Cases with High Fault Diagnosis Capability
-This repository contains a replication package for a research paper submitted to ICSE 2024.
+# Automatically Learning a Precise Measurement for Fault Diagnosis Capability of Test Cases
+This repository contains a replication package for a research paper submitted to ISSTA 2024.
 
 ## Requirements:
 + Python 3.9.1
@@ -9,7 +9,7 @@ This repository contains a replication package for a research paper submitted to
 + Docker 
 
 ## Package structure
-+ **human-written-tests** directory contains code and data that can help reproduce results for RQ1
++ **human-written-tests** directory contains code and data that can help reproduce results for RQ1 and RQ4.
 + **automatically-generated-tests** directory contains code that can help reproduce results for RQ2-3
 
 ## Acknowledgement
