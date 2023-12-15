@@ -45,7 +45,8 @@ The script `invocation_xxx.py` will run the corresponding baseline on the specif
 
 ### **Step 4**. (Optional) Do fault localization with other metrics
 
-- `python3.6 tfd_main.py Lang 1 --tool evosuite --id <test_suite_id> --budget 10 --selection FDG:0.5 --noise 0.0`
+- cd /root/workspace
+- `python3 tfd_main.py Lang 1 --tool evosuite --id <test_suite_id> --budget 10 --selection FDG:0.5 --noise 0.0`
 
 
 ### **Step 4**. Summarize results
