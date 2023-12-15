@@ -34,7 +34,7 @@ Now, go to **Step 2**.
 
 ### **Step 2**. Change EVOSUITE config
 
-- cp evosuite-config /root/evosuite-config
+- `cp evosuite-config /root/evosuite-config`
 
 ### **Step 3**. Generate test cases and do fault localization with RLFDC
 
@@ -45,7 +45,7 @@ The script `invocation_xxx.py` will run the corresponding baseline on the specif
 
 ### **Step 4**. (Optional) Do fault localization with other metrics
 
-- cd /root/workspace
+- `cd /root/workspace`
 - `python3 tfd_main.py Lang 1 --tool evosuite --id <test_suite_id> --budget 10 --selection FDG:0.5 --noise 0.0`
 
 
