@@ -9,8 +9,8 @@ This repository contains a replication package for a research paper submitted to
 + Docker 
 
 ## Package structure
-+ **human-written-tests** directory contains code and data that can help reproduce results for RQ1 and RQ4.
-+ **automatically-generated-tests** directory contains code that can help reproduce results for RQ2-3
++ **human-written-tests** directory contains code, data and model checkpoints that can help reproduce results for RQ1 and RQ4.
++ **automatically-generated-tests** directory contains code and model checkpoints that can help reproduce results for RQ2-3
 
 ## Acknowledgement
 **We benefit a lot from the following projects when building our technique**
