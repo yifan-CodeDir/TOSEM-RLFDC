@@ -1,5 +1,5 @@
 # Automatically Learning a Precise Measurement for Fault Diagnosis Capability of Test Cases
-This repository contains a replication package for a research paper submitted to ISSTA 2024.
+This repository contains a replication package for a research paper submitted to TOSEM.
 
 ## Requirements:
 + Python 3.9.1
