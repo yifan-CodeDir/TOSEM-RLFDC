@@ -17,3 +17,20 @@ This repository contains a replication package for a research paper submitted to
 + [FDG](https://github.com/agb94/FDG-artifact)
 + [DDU](https://github.com/aperez/evosuite)
 + [EVOSUITE](http://www.evosuite.org)
+
+## Citing
+```
+@article{10.1145/3712189,
+author = {Zhao, Yifan and Sun, Zeyu and Wang, Guoqing and Liang, Qingyuan and Zhang, Yakun and Lou, Yiling and Hao, Dan and Zhang, Lu},
+title = {Automatically Learning a Precise Measurement for Fault Diagnosis Capability of Test Cases},
+year = {2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+issn = {1049-331X},
+url = {https://doi.org/10.1145/3712189},
+doi = {10.1145/3712189},
+note = {Just Accepted},
+journal = {ACM Trans. Softw. Eng. Methodol.},
+month = jan,
+}
+```
